@@ -5,7 +5,6 @@ class MP4ToAVIAdapter implements VideoConverter {
         this.mp4Video = mp4Video;
     }
 
-    @Override
     public void convert(String sourceVideo, String targetVideo) {
         System.out.println("Converting MP4 to AVI");
         mp4Video.playMP4();
